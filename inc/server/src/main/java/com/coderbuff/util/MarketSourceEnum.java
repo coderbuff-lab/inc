@@ -5,7 +5,7 @@ package com.coderbuff.util;
  * Created by OKevin on 2019-07-18 00:10
  **/
 public enum MarketSourceEnum {
-    HS(1, "上证深证"),
+    CN(1, "沪深股市"),
     HK(2, "香港股市"),
     USA(3, "美国股市");
 
@@ -28,7 +28,7 @@ public enum MarketSourceEnum {
     public static MarketSourceEnum getSource(Integer source) {
         switch (source) {
             case 1:
-                return HS;
+                return CN;
             case 2:
                 return HK;
             case 3:

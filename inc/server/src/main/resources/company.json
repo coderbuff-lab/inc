@@ -1,0 +1,16 @@
+[{
+  "name": "京东",
+  "code": "jd",
+  "allStock": "14.54",
+  "source": 3
+},{
+  "name": "阿里巴巴",
+  "code": "baba",
+  "allStock": "25.84",
+  "source": 3
+},{
+  "name": "小米",
+  "code": "01810.HK",
+  "allStock": "240.467",
+  "source": 2
+}]
