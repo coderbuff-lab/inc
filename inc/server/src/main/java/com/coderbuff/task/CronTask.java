@@ -1,13 +1,12 @@
 package com.coderbuff.task;
 
 import org.springframework.scheduling.annotation.Scheduled;
-import org.springframework.stereotype.Component;
 
 /**
  * 定时任务
  * Created by OKevin on 2019-07-08 22:58
  **/
-@Component("cronTask")
+//@Component("cronTask")
 public class CronTask {
 
     /**

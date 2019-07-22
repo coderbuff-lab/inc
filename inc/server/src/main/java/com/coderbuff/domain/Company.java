@@ -32,15 +32,14 @@ public class Company {
     /**
      * 市值
      */
-    private Double money;
-
-    /**
-     * 排名
-     */
-    private Integer rank;
+    private String money;
 
     /**
      * 更新时间
      */
     private Long update;
+
+    public Double getMoney() {
+        return Double.parseDouble(money);
+    }
 }
